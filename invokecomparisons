@@ -1,6 +1,6 @@
 #invoke webreq and restmeth comparisons
 Invoke-WebRequest -Uri "https://google.com"
-
+#here we are using webrequest and as you see the response is pretty explanatory and http/s detailed.Invoke-restmethod response is not at all in readable format ofc this may alsos depend on the URL we are making an api call too, lets see that next...
 StatusCode        : 200
 StatusDescription : OK
 Content           : <!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en-IN"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/…
